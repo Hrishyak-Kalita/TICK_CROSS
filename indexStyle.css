@@ -1,0 +1,228 @@
+body{
+    background: linear-gradient(to bottom, rgb(243, 219, 83)0%,rgb(61, 245, 61)100%);
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+}
+
+.navbar{
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: 800;
+    margin: 0;
+    position: absolute;
+    right: 0.03vw;
+    top: 0.03vh;
+}
+.spantext{
+    height:7vh;
+    width: 35vw;
+    position: absolute;
+left: 10vw;
+padding-top: 3vh;
+padding-left: 2vw;
+
+}
+.score{
+    height:7vh;
+    width: 35vw;
+    position: absolute;
+left: 70vw;
+padding-top: 3vh;
+padding-left: 2vw;
+}
+
+.container{
+    height: 73.25vh;
+    width: 42vw;
+    background: linear-gradient(to top,rgb(184, 166, 66) 10%, white)100%;
+    position: absolute;
+    left: 10vw;
+    top: 20vh;
+}
+.row{
+    display: flex;
+}
+.box{
+    height: 24vh;
+    width: 14vw;
+    border: 2px solid black;
+}
+.box:hover{
+    cursor: pointer;
+    background:linear-gradient(to bottom,rgb(179, 85, 108)1%,rgb(129, 245, 83)100%) ;
+}
+.boxtext{
+    font-size: 20vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-left: 4.8vw;
+padding-top: 2vh;
+}
+.bt0{
+    border-top: 0;
+}
+.bl0{
+    border-left: 0;
+}
+.br0{
+    border-right: 0;
+}
+.bb0{
+    border-bottom: 0;
+}
+.content{
+    height: 100vh;
+    width:100vw;
+
+    display: flex;
+    
+}
+.instruction{
+    height: 5vh;
+    width: 15vw;
+}
+.info{
+    height: 7.5vh;
+    width: 18vw;
+    background: linear-gradient(to left, rgb(247, 30, 157)0%, rgb(53, 128, 240)100% );
+    font-size: 35px;
+     font-weight:600 ;
+    position: absolute;
+    left: 21vw;
+    top: 10.5vh;
+    padding-left: 20px;
+    padding-top: 3px;
+border-radius: 4px;
+}
+.greet{
+    height: 5.5vh;
+    width: 23vw;
+    background-color: rgb(0, 255, 34);
+    font-family: 'Lobster';
+    font-size: 30px;
+     font-weight:600 ;
+    position: absolute;
+    left: 60vw;
+    top: 11.5vh;
+    padding-left: 18px;
+    padding-top: 3px;
+border-radius: 4px;
+}
+
+.image img{
+    width: 0;
+        position: absolute;
+    left: 50vw;
+    top: 20vh;
+transition:width 1s ease-in-out ;
+}
+#gif{
+    width: 0;
+    position: absolute;
+    left: 80vw;
+    top: 32vh;
+    font-family: 'font2';
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(86, 8, 160);
+    transition:width 1s ease-in-out ;
+}
+.btn{
+    height: 5vh;
+    width: 6vw;
+    background:linear-gradient(to left, rgb(250, 59, 91)10%,rgb(142, 47, 250)100%);
+    border: solid 2px rgb(33, 248, 69);
+    border-radius: 10px;
+    color: rgb(250, 247, 247);
+    font-size: 3vh;
+    font-family:   sans-serif;
+    position: absolute;
+left: 60vw;
+top: 2vh;
+cursor: pointer;
+}
+
+.drawgif img{
+    width: 0;
+        position: absolute;
+    left: 54vw;
+    top: 25vh;
+transition:width 1s ease-in-out ;
+}
+
+
+
+
+.l{
+    height: 100vh;
+    width: 100vw;
+    /* background-image: linear linear-gradient( to left, var(--dark), var(darker)); */
+position: relative;
+overflow: hidden;
+}
+.fallgreet :after, .fallgreet :before{
+    
+    background-image: 
+ radial-gradient(4px 4px at 130px 80px, rgb(37, 50, 231), transparent),
+ radial-gradient(4px 3px at 200px 150px, rgb(8, 133, 190), transparent),  
+    radial-gradient(5px 5px at 250px 200px, rgb(175, 20, 167), transparent), 
+    radial-gradient(4px 4px at 300px 450px, rgb(255, 255, 255), transparent), 
+    radial-gradient(4px 4px at 120px 70px, rgb(230, 226, 20), transparent), 
+    radial-gradient(3px 3px at 130px 50px, rgb(32, 182, 18), transparent),
+    radial-gradient(4px 4px at 300px 100px, rgb(255, 255, 255), transparent),
+    radial-gradient(4px 4px at 400px 350px, rgb(216, 13, 13), transparent),
+    radial-gradient(4px 4px at 500px 410px, #fff, transparent),
+    radial-gradient(3px 3px at 400px 250px, #fff, transparent),
+    radial-gradient(4px 4px at 300px 250px, #fff, transparent),
+    radial-gradient(4px 4px at 150px 50px, #fff, transparent),
+    radial-gradient(4px 4px at 200px 150px, #fff, transparent),
+     radial-gradient(4px 4px at 200px 250px, #fff, transparent), 
+    radial-gradient(4px 4px at 350px 300px, #fff, transparent), 
+    radial-gradient(4px 4px at 300px 300px, #fff, transparent),
+    radial-gradient(3px 4px at 400px 300px, #fff, transparent),
+    radial-gradient(3px 3px at 250px 300px, #fff, transparent),
+    radial-gradient(4px 4px at 200px 300px, #fff, transparent),
+    radial-gradient(5px 5px at 150px 300px, #fff, transparent),
+    radial-gradient(3px 3px at 100px 300px, #fff, transparent), 
+    radial-gradient(4px 4px at 150px 350px, #fff, transparent),
+    radial-gradient(4px 5px at 250px 350px, #fff, transparent),
+    radial-gradient(3px 4px at 300px 350px, #fff, transparent),
+    radial-gradient(4px 4px at 200px 350px, #fff, transparent), 
+    radial-gradient(5px 5px at 100px 350px, #fff, transparent), 
+    radial-gradient(4px 4px at 100px 400px, #fff, transparent), 
+    radial-gradient(4px 4px at 150px 400px, #fff, transparent), 
+    radial-gradient(3px 3px at 200px 100px, #fff, transparent), 
+      radial-gradient(4px 4px at 200px 400px, #fff, transparent),  
+     radial-gradient(4px 4px at 300px 400px, #fff, transparent), 
+     radial-gradient(3px 3px at 250px 400px, #fff, transparent), 
+    radial-gradient(4px 4px at 300px 400px, #fff, transparent); 
+    background-size: 450px 450px;
+ animation: snowAnim .9s linear; 
+animation-iteration-count: infinite;
+}
+.fallgreet:after{
+    margin-left: -200px;
+    opacity:0.64;
+    filter: blur(4px);
+    animation-direction:reverse ;
+    animation-duration: 1s;
+}
+.fallgreet:before{
+    margin-left: -350px;
+    opacity:0.8;
+   
+   filter: blur(4px);
+   animation-direction:reverse ;
+    animation-duration: 1s;
+}
+@keyframes fallgreet{
+from{
+    transform: translateY(0);
+}
+to{
+    transform: translateY(650px);
+}
+}
